@@ -34,7 +34,13 @@
     }
   ],
   "devDependencies": {
-    "mocha": "^9.1.3",
-    "standard": "^16.0.4"
+    "husky": "^8.0.3",
+    "mocha": "^10.2.0",
+    "standard": "^17.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   }
 }
