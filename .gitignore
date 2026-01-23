@@ -7,4 +7,3 @@ config/*.json
 config/facs/*.json
 logs
 sec
-package-lock.json

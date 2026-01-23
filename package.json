@@ -1,5 +1,5 @@
 {
-  "name": "bfx-util-js",
+  "name": "@bitfinex/bfx-util-js",
   "version": "0.0.5",
   "private": true,
   "description": "Bitfinex Service",
@@ -11,16 +11,16 @@
     "bitfinex"
   ],
   "dependencies": {
+    "@bitfinex/bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git",
+    "@bitfinex/bfx-facs-interval": "https://github.com/bitfinexcom/bfx-facs-interval.git",
+    "@bitfinex/bfx-wrk-base": "git+https://github.com/bitfinexcom/bfx-wrk-base.git",
     "async": "^3.2.1",
-    "bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git",
-    "bfx-facs-interval": "https://github.com/bitfinexcom/bfx-facs-interval.git",
     "bfx-svc-boot-js": "https://github.com/bitfinexcom/bfx-svc-boot-js.git",
-    "bfx-wrk-base": "git+https://github.com/bitfinexcom/bfx-wrk-base.git",
     "lodash": "^4.17.21",
     "yargs": "^17.2.1"
   },
   "engine": {
-    "node": ">=8.0"
+    "node": ">=16.0"
   },
   "license": "Apache-2.0",
   "repository": {
