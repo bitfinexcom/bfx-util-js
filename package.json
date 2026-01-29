@@ -1,7 +1,7 @@
 {
   "name": "@bitfinex/bfx-util-js",
   "version": "0.0.5",
-  "private": true,
+  "private": false,
   "description": "Bitfinex Service",
   "author": {
     "name": "prdn",
